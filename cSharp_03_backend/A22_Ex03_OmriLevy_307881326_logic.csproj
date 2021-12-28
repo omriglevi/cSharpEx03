@@ -25,7 +25,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Vehicles\Vehicle.cs" />
     <Compile Include="PowerSource\FuelPowerSource.cs" />
     <Compile Include="PowerSource\PowerSource.cs" />
@@ -43,6 +42,9 @@
     <Folder Include="Wheels\" />
     <Folder Include="PowerSource\" />
     <Folder Include="Garage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Program.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
