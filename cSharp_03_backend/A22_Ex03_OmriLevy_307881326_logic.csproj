@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{8F3D74AA-0971-4FFA-B0DC-841C454CA90A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>cSharp_03_backend</RootNamespace>
+    <AssemblyName>cSharp_03_backend</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Vehicles\Vehicle.cs" />
+    <Compile Include="PowerSource\FuelPowerSource.cs" />
+    <Compile Include="PowerSource\PowerSource.cs" />
+    <Compile Include="PowerSource\ElectricPowerSource.cs" />
+    <Compile Include="Wheels\Wheel.cs" />
+    <Compile Include="Vehicles\Truck.cs" />
+    <Compile Include="Vehicles\Car.cs" />
+    <Compile Include="Vehicles\Motorcycle.cs" />
+    <Compile Include="Garage\Garage.cs" />
+    <Compile Include="Garage\GarageCostumerTicket.cs" />
+    <Compile Include="Garage\FullDetailReport.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Vehicles\" />
+    <Folder Include="Wheels\" />
+    <Folder Include="PowerSource\" />
+    <Folder Include="Garage\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A22_Ex03_OmriLevy_307881326_logic", "cSharp_03_backend\A22_Ex03_OmriLevy_307881326_logic.csproj", "{8F3D74AA-0971-4FFA-B0DC-841C454CA90A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F3D74AA-0971-4FFA-B0DC-841C454CA90A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8F3D74AA-0971-4FFA-B0DC-841C454CA90A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8F3D74AA-0971-4FFA-B0DC-841C454CA90A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8F3D74AA-0971-4FFA-B0DC-841C454CA90A}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEFD1142-4089-444E-BFCB-76C1E864E7D7}
+	EndGlobalSection
+EndGlobal

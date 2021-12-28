@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{8F3D74AA-0971-4FFA-B0DC-841C454CA90A}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cSharp_03" expanded="True">
+            <Node name="A22_Ex03_OmriLevy_307881326_logic" expanded="True" selected="True">
+              <Node name="Garage" expanded="True" />
+              <Node name="PowerSource" expanded="True" />
+              <Node name="Vehicles" expanded="True" />
+              <Node name="Wheels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.A22__Ex03__OmriLevy__307881326__logic PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

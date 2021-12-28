@@ -1,0 +1,6 @@
+/Users/wmrylwy/Projects/cSharp_03/cSharp_03_backend/obj/Debug/cSharp_03_backend.csproj.AssemblyReference.cache
+/Users/wmrylwy/Projects/cSharp_03/cSharp_03_backend/obj/Debug/cSharp_03_backend.csproj.CoreCompileInputs.cache
+/Users/wmrylwy/Projects/cSharp_03/cSharp_03_backend/bin/Debug/cSharp_03_backend.exe
+/Users/wmrylwy/Projects/cSharp_03/cSharp_03_backend/bin/Debug/cSharp_03_backend.pdb
+/Users/wmrylwy/Projects/cSharp_03/cSharp_03_backend/obj/Debug/cSharp_03_backend.exe
+/Users/wmrylwy/Projects/cSharp_03/cSharp_03_backend/obj/Debug/cSharp_03_backend.pdb
